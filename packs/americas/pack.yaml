@@ -1,0 +1,40 @@
+region: americas
+version: 0.1.0
+description: Americas pack — wider lanes, larger staging, low-poly primitives
+
+materials:
+  ground: [0.45, 0.42, 0.38]
+  building: [0.72, 0.70, 0.66]
+  scaffold: [0.85, 0.55, 0.12]
+  barrier: [0.92, 0.55, 0.08]
+  material_pile: [0.55, 0.50, 0.42]
+  excavation: [0.35, 0.28, 0.22]
+  gate: [0.20, 0.55, 0.30]
+
+priors:
+  # Fraction of plot depth allocated to each zone (along +Y)
+  zone_fractions:
+    excavation: 0.18
+    staging: 0.35
+    build: 0.47
+  lane_width_m: 6.0
+  barrier_height_m: 1.2
+  barrier_thickness_m: 0.15
+  barrier_segment_m: 4.0
+  gate_width_m: 8.0
+  gate_side: south  # opening on -Y edge
+  building_size_m: [12.0, 16.0, 8.0]  # x, y, z
+  scaffold_bay_m: 2.5
+  scaffold_clearance_m: 0.8
+  pile_count_low: 3
+  pile_count_med: 6
+  pile_size_m: [2.0, 2.0, 1.2]
+
+primitives:
+  ground: box
+  building: box
+  scaffold: box
+  barrier: box
+  material_pile: box
+  excavation: box
+  gate: empty

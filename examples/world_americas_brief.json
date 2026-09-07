@@ -1,0 +1,10 @@
+{
+  "prompt": "Active mid-rise concrete construction site with scaffolding, staging yard, orange barriers, and a clear vehicle gate",
+  "region": "americas",
+  "display_name": "Americas Site Showcase",
+  "mood": "late afternoon golden hour",
+  "must_include": ["scaffolding", "staging yard", "perimeter barriers", "gate"],
+  "avoid": ["fantasy", "ruins", "indoor only"],
+  "seed": 42,
+  "tags": ["construction", "americas", "showcase"]
+}

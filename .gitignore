@@ -1,0 +1,15 @@
+data/
+.env
+__pycache__/
+*.pyc
+.venv/
+.python-version
+*.egg-info/
+dist/
+build/
+node_modules/
+*.usd*
+!packs/**/*.usd*
+.pytest_cache/
+.DS_Store
+.mypy_cache/

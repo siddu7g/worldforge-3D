@@ -1,0 +1,10 @@
+{
+  "region": "americas",
+  "seed": 42,
+  "plot_m": [40, 60],
+  "phases": ["structure"],
+  "zones": ["excavation", "staging", "build", "perimeter"],
+  "density": "low",
+  "include_scaffolding": true,
+  "pipeline": "local"
+}
