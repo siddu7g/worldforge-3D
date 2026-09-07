@@ -1,17 +1,19 @@
-# Agentic Construction Site Builder
+# WorldForge-3D
 
-Open-source reference for building showcase construction worlds with World Labs Marble and moving them into NVIDIA Isaac Sim.
+Open-source reference for building showcase 3D worlds with World Labs Marble and moving them into NVIDIA Isaac Sim.
 
 Two supported paths:
 
 - `Marble -> Isaac`: the showcase path
-- `Local USD`: deterministic site-layout scaffold for Isaac
+- `Local USD`: deterministic structured-world scaffold for Isaac
 
 ## Repo Name Ideas
 
 - `siteforge-ai`
 - `worldbuild-isaac`
 - `marble-site-pipeline`
+
+This repo is broader than construction. Construction is one implemented example, but the intended surface is general 3D world creation: indoor spaces, renovation scenes, job sites, walkthrough environments, staged demos, and other explorable worlds.
 
 ## What This Repo Does
 
@@ -64,8 +66,8 @@ python -m apps.api.cli credits
 
 ```bash
 python -m apps.api.cli world \
-  --prompt "Indoor house under construction, walkable rooms, exposed studs" \
-  --name "Indoor House" \
+  --prompt "Walkable indoor environment with exposed framing, tools, debris, and natural light" \
+  --name "Indoor Build World" \
   --region americas \
   --seed 7
 ```
@@ -99,6 +101,8 @@ Then open the generated `view.usda` in Isaac:
 ```bash
 python -m apps.api.cli generate --spec examples/americas_s42.json
 ```
+
+Today the Local USD pack is construction-first. The Marble generation and Marble-to-Isaac pipeline are the more general building blocks for other world types.
 
 ## Profiles For Isaac Conversion
 
