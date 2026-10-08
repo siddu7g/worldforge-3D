@@ -7,14 +7,6 @@ Two supported paths:
 - `Marble -> Isaac`: the showcase path
 - `Local USD`: deterministic structured-world scaffold for Isaac
 
-## Repo Name Ideas
-
-- `siteforge-ai`
-- `worldbuild-isaac`
-- `marble-site-pipeline`
-
-This repo is broader than construction. Construction is one implemented example, but the intended surface is general 3D world creation: indoor spaces, renovation scenes, job sites, walkthrough environments, staged demos, and other explorable worlds.
-
 ## What This Repo Does
 
 ### 1. One-shot Marble world generation
